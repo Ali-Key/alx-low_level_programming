@@ -9,17 +9,23 @@
 */
 int print_sign(int n)
 {
+int test;
+
 if (n > 0)
 {
-_putchar('+');
-return (1);
-} else if (n == 0)
-{
-_putchar(48);
-return (0);
-} else if (n < 0)
-{
-_putchar('-');
+        test = 1;
+        _putchar('+');
 }
-return (-1);
+else if (n == 0)
+{
+        test = 0;
+        _putchar('0');
+}
+else
+{
+        test = -1;
+        _putchar('-');
+}
+
+return (test);
 }
