@@ -7,8 +7,8 @@
 	 * followed by a new line
 	 * @n: print from this number
 	 */
-	void print_to_98(int n)
-	{
+void print_to_98(int n)
+{
 		int i, j;
 
 
@@ -32,3 +32,5 @@
 			}
 		}
 	}
+
+}
